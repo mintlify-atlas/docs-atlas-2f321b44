@@ -1,0 +1,91 @@
+{
+  "projectType": "general",
+  "projectName": "Config-Sway",
+  "projectDescription": "Sway dotfiles with Hyprland-style keybindings, multi-theme system, and integrated Waybar, Rofi, and Kitty configurations for Arch Linux.",
+  "theme": "aspen",
+  "primaryColor": "#00d9ff",
+  "lightColor": "#4fffff",
+  "darkColor": "#00a8cc",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "installation",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Configuration",
+        "pages": [
+          "configuration/overview",
+          "configuration/sway",
+          "configuration/waybar",
+          "configuration/rofi",
+          "configuration/kitty",
+          "configuration/neovim",
+          "configuration/mako"
+        ]
+      },
+      {
+        "group": "Themes",
+        "pages": [
+          "themes/overview",
+          "themes/available-themes",
+          "themes/switching-themes",
+          "themes/creating-themes"
+        ]
+      },
+      {
+        "group": "Keybindings",
+        "pages": [
+          "keybindings/overview",
+          "keybindings/applications",
+          "keybindings/windows",
+          "keybindings/navigation",
+          "keybindings/workspaces",
+          "keybindings/multimedia"
+        ]
+      },
+      {
+        "group": "Scripts & Utilities",
+        "pages": [
+          "scripts/rofi-menus",
+          "scripts/wallpaper-management",
+          "scripts/autostart",
+          "scripts/update-system"
+        ]
+      },
+      {
+        "group": "Advanced",
+        "pages": [
+          "advanced/sddm-theme",
+          "advanced/flameshot-wayland",
+          "advanced/environment-variables",
+          "advanced/troubleshooting"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Hyprland-style keybindings (HJKL navigation)",
+    "Multi-theme system with 6 pre-made themes",
+    "Rofi-based menus for apps, power, themes, and wallpapers",
+    "Intelligent dotfiles sync with backup system",
+    "Integrated Waybar with Sway workspaces",
+    "SDDM astronaut theme for login screen",
+    "NvChad Neovim configuration included"
+  ],
+  "publicApiSurface": [
+    "install.sh - Install dependencies on Arch Linux",
+    "update.sh - Sync dotfiles from repo to $HOME",
+    "~/.config/sway/config - Main Sway configuration",
+    "~/.config/rofi/scripts/theme-switcher.sh - Switch themes",
+    "~/.config/rofi/scripts/wallpaper-switcher.sh - Change wallpaper",
+    "~/.config/rofi/scripts/power-menu.sh - Power management menu",
+    "~/.config/rofi/scripts/selector-app.sh - Application launcher",
+    "~/.config/scripts/setwallpaper.sh - Set wallpaper programmatically",
+    "~/.config/themes/<theme>/ - Theme directories"
+  ]
+}
